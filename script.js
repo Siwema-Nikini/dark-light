@@ -16,7 +16,7 @@ function imageMode(color){
 // Dark Mode Styles
 function darkMode(){
     nav.style.backgoundColor = 'rgb(0 0 0 / 50%)';
-    //textBox.style.backgroundColor = 'rgb(0 0 0 /50%)';
+    // textBox.style.backgroundColor = 'rgb(0 0 0 /50%)';
     toggleIcon.children[0].textContent = 'Dark Mode';
     toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon');
     imageMode(dark);
@@ -25,7 +25,7 @@ function darkMode(){
 // Light Mode
 function lightMode(){
     nav.style.backgoundColor = 'rgb(255 255 255 / 50%)';
-    textBox.style.backgroundColor = 'rgb(0 0 0 /50%)';
+    // textBox.style.backgroundColor = 'rgb(0 0 0 /50%)';
     toggleIcon.children[0].textContent = 'Light Mode';
     toggleIcon.children[1].classList.replace('fa-moon', 'fa-sun');
     imageMode(light)

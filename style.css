@@ -288,6 +288,6 @@
         background-color: #2196F3;
     }
     
-    .toggle-checkbox:checked + .toggle-label:before {
+     .toggle-checkbox:checked + .toggle-label:before {
         transform: translateX(26px);
     }
